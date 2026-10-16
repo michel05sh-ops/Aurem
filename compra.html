@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Datos de compra — Aurem</title>
+<meta name="description" content="Bebidas inspiradas en el ocultismo, la alquimia y las leyendas. Descubre el universo de Aurem.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip" href="#contenido">Ir al contenido</a>
+<div class="screen shop-screen section-screen">
+<img class="frame" src="assets/marco-secciones.png" alt="" aria-hidden="true">
+<header>
+<nav aria-label="Navegación principal">
+<a class="nav-link" href="tienda.html" aria-current="page">Tienda</a>
+<a class="nav-link" href="bebidas.html">Bebidas</a>
+<a class="home-link" href="index.html" aria-label="Aurem, inicio"><img src="assets/logo.png" alt="Aurem"></a>
+<a class="nav-link" href="sobre-aurem.html">Sobre Aurem</a>
+<a class="nav-link" href="visiones.html">Visiones</a>
+</nav>
+</header>
+<main id="contenido" class="checkout">
+<div class="checkout-heading"><p class="eyebrow">Tu colección, un paso más cerca</p><h1>Datos de compra</h1></div>
+<div class="checkout-grid"><form id="order-form">
+<h2>Contacto</h2><div class="form-grid"><label>Nombre completo<input name="nombre" autocomplete="name" required maxlength="120"></label><label>Correo electrónico<input name="correo" type="email" autocomplete="email" required maxlength="160"></label><label>Teléfono<input name="telefono" type="tel" autocomplete="tel" required maxlength="30"></label></div>
+<h2>Dirección de envío</h2><div class="form-grid"><label class="wide">Calle y número<input name="direccion" autocomplete="address-line1" required maxlength="180"></label><label>Colonia<input name="colonia" autocomplete="address-line2" required maxlength="120"></label><label>Ciudad<input name="ciudad" autocomplete="address-level2" required maxlength="100"></label><label>Estado<input name="estado" autocomplete="address-level1" required maxlength="100"></label><label>Código postal<input name="postal" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}" title="Escribe los cinco dígitos de tu código postal" required maxlength="5"></label><label>País<input value="México" readonly name="pais" autocomplete="country-name"></label></div>
+
+<button class="buy-button" type="button">Revisar pedido</button>
+</form><aside class="order-summary"><p class="eyebrow">Tu pedido</p><h2>Colección Aurem</h2><p>1 estuche · 4 bebidas</p><p>Selëne · Grimorio · Veil · Pyrus</p><hr><p>Producto <span>$1,600 MXN</span></p><p>Envío <span>Por calcular</span></p><hr><p>Subtotal <span>$1,600 MXN</span></p><p class="small-note">El total final incluirá el costo de envío, aún por definir.</p><a class="text-link" href="tienda.html">Volver a la tienda</a><div id="review" role="status" tabindex="-1" hidden></div></aside></div>
+</main>
+</div>
+</body>
+</html>
